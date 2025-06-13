@@ -1,0 +1,24 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #111827; /* Dark blue-grey background */
+    color: #d1d5db; /* Light grey text */
+}
+
+.card {
+    background-color: #1f2937;
+    border: 1px solid #374151;
+}
+
+.stat-value {
+    color: #34d399; /* A nice green color for numbers */
+}
+
+.event-log-item:not(:last-child) {
+    border-bottom: 1px solid #374151;
+}
+
+/* Making the buttons look disabled when we are loading stuff */
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
